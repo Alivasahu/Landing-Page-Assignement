@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #2F1893;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13%;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a {
+    font-size: 17px;
+}
+
+.logo a {
+    font-size: 25px;
+}
+
+.btn {
+    background: #E93A7D;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+}
+
+.hero {
+    width: 100%;
+    min-height: 500px;
+    padding: 3% 13%;
+    display: flex;
+    gap: 5%;
+}
+
+.content {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content h1 {
+    font-size: 3rem;
+    line-height: 70px;
+}
+
+.content p {
+    width: 90%;
+    line-height: 30px;
+    color: #fff;
+}
+
+.content .btn {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100%;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    gap: 20px;
+    height: 100%;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid #333;
+}
+
+form h3 {
+    color: black;
+    font-size: 1.6rem;
+}
+
+form .check {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+form .check input {
+    width: 20px;
+    height: 20px;
+   background-color: aquamarine;
+}
+
+form button {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+button.sign-in {
+    background-color: #2F1893;
+}
+
+button.log-in {
+    background-color: rgba(29, 161, 242, 1);
+}
+
+p,
+span,
+h6 {
+    color: rgba(21, 20, 57, 0.4);
+}
+
+span {
+    font-size: 0.8rem;
+}
+
+h6 a {
+    color: aquamarine;
+}
+form .or-line{
+    position: relative;
+    width: 100%;
+}
+form .or-line::after,form .or-line::before{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: rgba(21, 20, 57, 0.4);
+    top: 50%;
+}
+form .or-line::after{
+    right: 0;
+}
+form .or-line::before{
+    left: 0;
+}
+form h6{
+    font-size: 0.9rem;
+}
